@@ -1,7 +1,7 @@
 # BMNYearPicker
 
 Overview
-BMNYear Picker is UIPickerView Control with Custom Month and Year
+BMNYear Picker is UIPickerView Control with Custom  Year
 
 How to use
 Just drag and drop BMNYearPicker from Demo Project to your code, Add BMNYearPickerViewDelegate to your view controller
