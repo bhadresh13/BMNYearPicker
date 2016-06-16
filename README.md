@@ -14,6 +14,6 @@ Just drag and drop BMNYearPicker from Demo Project to your code, Add BMNYearPick
     self.presentViewController(picker, animated: true, completion: nil)
 Delegate Methods
 
-func pickerDone(year: String) 
-func pickerCancel()
-Speacial Thanks
+    func pickerDone(year: String) 
+    func pickerCancel()
+Speacial Thanks Mahendrasing Gohil https://github.com/mj-iosdev
