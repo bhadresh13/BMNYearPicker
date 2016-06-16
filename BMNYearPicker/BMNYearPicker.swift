@@ -19,7 +19,6 @@ public class BMNYearPicker: UIViewController , UIPickerViewDataSource, UIPickerV
     public var toolBarItems : [UIBarButtonItem]!
     
     public var delegate: BMNYearPickerViewDelegate!
-//    var selectedMonth : String!
     var selectedYear : String!
 
     private var selectedRows: [Int]?
@@ -32,11 +31,9 @@ public class BMNYearPicker: UIViewController , UIPickerViewDataSource, UIPickerV
     }
     
     private func initFunc() {
-        monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         for(var i  = startYear ; i <= endYear ; i=i+1) {
             self.yearArray.addObject("\(i)")
         }
-//        self.selectedMonth = monthArray[0] as! String
         self.selectedYear = yearArray[0] as! String
 
         let screenSize = UIScreen.mainScreen().bounds.size
